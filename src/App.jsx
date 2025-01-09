@@ -10,7 +10,7 @@ import AdminRegister from './admin/admin_register';
 const App = () => {
   return (
     <AuthProvider>
-      <Router basename="/EVENT-FINAL">
+      <Router basename="/event-final-project1">
         <Routes>
           <Route path="/" element={<LoginForm />} />
           <Route path="/register" element={<AdminRegister />} />
